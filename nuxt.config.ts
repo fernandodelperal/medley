@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
+  app: {
+    baseURL: '/medley/'
+  },
   typescript: {
     shim: false
   }
