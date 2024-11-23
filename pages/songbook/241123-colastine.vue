@@ -196,7 +196,7 @@ function prevSong() {
 }
 
 function shareToWhatsApp() {
-  const text = encodeURIComponent(`Misa de Comunión y Confirmación, Barrio Bañado: ${currentUrl.value}`)
+  const text = encodeURIComponent(`Misa de Comunión y Confirmación, Barrio Bañado: https://fernandodelperal.github.io/medley/20241123-colastine`)
   window.open(`https://wa.me/?text=${text}`, '_blank')
 }
 
