@@ -63,7 +63,17 @@ yo creo en Ti, Señor, aumenta mi fe.`
     title: 'Los cielos, la tierra',
     tone: 'RE',
     lyrics: `Los cielos, la tierra, la misma Trinidad,
-aclaman, Señora, tu gloria inmortal.`
+aclaman, Señora, tu gloria inmortal.
+
+/¡Ave, Ave,
+Ave, María!/ (bis)
+
+Llena eres de gracia, de dicha sin par,
+y Dios es contigo, contigo su paz.
+Bendita entre todas las hijas de Adán;
+bendito es el fruto que a luz vas a dar.
+¡Oh Santa María, oh Madre de Dios!
+a Ti recurrimos confiando en tu amor.`
   },
   {
     title: 'Jesús amoroso',
