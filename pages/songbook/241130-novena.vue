@@ -124,7 +124,7 @@ function prevSong() {
 }
 
 function shareToWhatsApp() {
-  const text = encodeURIComponent(`Misa de Comunión y Confirmación, Barrio Bañado: https://fernandodelperal.github.io/medley/songbook/241123-colastine`)
+  const text = encodeURIComponent(window.location.href)
   window.open(`https://wa.me/?text=${text}`, '_blank')
 }
 
@@ -135,7 +135,7 @@ onMounted(() => {
 useHead({
   title: 'Misa de Comunión y Confirmación',
   meta: [
-    { name: 'description', content: 'Misa de Comunión y Confirmación, Barrio Bañado' }
+    { name: 'description', content: 'Cancionero Novena Inmaculada Bulevares' }
   ]
 })
 </script>
@@ -145,7 +145,7 @@ useHead({
     <header class="bg-white shadow-md p-4 sticky top-0 z-10">
       <div class="flex flex-col sm:flex-row justify-between items-center mb-4">
         <h1 class="text-xl font-bold mb-2 sm:mb-0">
-          Misa de Comunión y Confirmación, Barrio Bañado
+          Cancionero Novena Inmaculada Bulevares
         </h1>
         <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg flex items-center" @click="isShareDialogOpen = true">
           <Share2 class="h-5 w-5 mr-2" />
@@ -188,7 +188,7 @@ useHead({
 
     <footer class="bg-white shadow-md p-4 text-center text-gray-600">
       <p class="italic">
-        "En la Comunión y la Confirmación, nos fortalecemos en Cristo y nos unimos más profundamente a Su Iglesia."
+        "Novena Inmaculada Concepción"
       </p>
     </footer>
 
